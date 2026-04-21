@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets — NEVER commit
+.env
+.env.local
+
+# Local data
+data/
+spark-warehouse/
+
+# Azure — never commit parameter files with real values
+infra/main.parameters.json
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
