@@ -1,0 +1,11 @@
+# Dev environment defaults. Anything secret stays in .env or Key Vault.
+environment: dev
+log_level: INFO
+data_dir: ./data
+
+upload_batch_size: 50000
+max_concurrent_uploads: 8
+
+default_customer_count: 50000
+default_days: 90
+default_fraud_rate: 0.008
